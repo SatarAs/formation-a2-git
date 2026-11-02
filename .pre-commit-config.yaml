@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/commit-check/commit-check
+    rev: v2.19.3
+    hooks:
+      - id: check-message
+        args: [--fix]
+
+      - id: check-branch
+      - id: check-author-name
+      - id: check-author-email
