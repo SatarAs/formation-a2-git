@@ -1,0 +1,5 @@
+[commit]
+conventional_commits = true
+subject_max_length   = 80
+[branch]
+conventional_branch  = true
